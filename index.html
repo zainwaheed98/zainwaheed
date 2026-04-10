@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zain Waheed — Graphic Designer & Creative Thinker. Portfolio showcasing branding, social media, and packaging design."
+    />
+    <title>Zain Waheed — Graphic Designer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="#cover">ZW</a>
+        <button
+          type="button"
+          class="nav__toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open menu"
+        >
+          <span></span><span></span>
+        </button>
+        <ul class="nav__list" id="nav-menu">
+          <li><a class="nav__link" href="#cover">Cover</a></li>
+          <li><a class="nav__link" href="#about">About Me</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li><a class="nav__link" href="#experience">Work Experience</a></li>
+          <li><a class="nav__link" href="#work">My Work</a></li>
+        </ul>
+        <button
+          type="button"
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle theme"
+        >
+          <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"></span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="cover" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__orb hero__orb--1"></div>
+          <div class="hero__orb hero__orb--2"></div>
+          <div class="hero__grid"></div>
+        </div>
+        <div class="hero__inner reveal">
+          <p class="hero__eyebrow">Portfolio</p>
+          <h1 class="hero__title" id="hero-title">Zain Waheed</h1>
+          <p class="hero__subtitle">Graphic Designer &amp; Creative Thinker</p>
+          <a class="btn btn--primary" href="#work">View My Work</a>
+        </div>
+        <a class="hero__scroll" href="#about" aria-label="Scroll to About">
+          <span class="hero__scroll-line"></span>
+        </a>
+      </section>
+
+      <section class="section section--about" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="about grid-2">
+            <div class="about__text reveal">
+              <h2 class="section__title" id="about-title">About Me</h2>
+              <p class="section__lead">
+                Hi, I’m Zain Waheed, a creative and detail-focused graphic designer with a passion
+                for turning ideas into bold, eye-catching visuals. I specialize in branding, social
+                media posts, and product packaging, blending clean design with strong storytelling.
+                Whether you're building a brand or launching a campaign, I’m here to help you make a
+                lasting visual impact.
+              </p>
+            </div>
+            <div class="about__visual reveal reveal--delay">
+              <div class="about__frame">
+                <div class="about__mark" aria-label="Zain Waheed logo">
+                  <svg
+                    viewBox="0 0 64 64"
+                    width="140"
+                    height="140"
+                    role="img"
+                    aria-label="ZW monogram"
+                    focusable="false"
+                  >
+                    <defs>
+                      <linearGradient id="zwg" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="currentColor" stop-opacity="0.9" />
+                        <stop offset="1" stop-color="currentColor" stop-opacity="0.65" />
+                      </linearGradient>
+                    </defs>
+                    <circle cx="32" cy="32" r="29" fill="none" stroke="url(#zwg)" stroke-width="2" />
+                    <path
+                      d="M18 24h28l-20 16h20v4H18l20-16H18v-4Z"
+                      fill="currentColor"
+                      opacity="0.92"
+                    />
+                    <path
+                      d="M46 22v20.5c0 5.5-4.2 9.5-10.2 9.5-4.6 0-8.2-2-10.4-5.4l3.5-2.1c1.5 2.4 3.8 3.7 6.9 3.7 3.8 0 6.3-2.2 6.3-6.1V22h3.9Z"
+                      fill="currentColor"
+                      opacity="0.16"
+                    />
+                  </svg>
+                </div>
+                <p class="about__tag">Branding · Social · Packaging</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--muted" id="education" aria-labelledby="education-title">
+        <div class="container">
+          <h2 class="section__title section__title--center reveal" id="education-title">
+            Education
+          </h2>
+          <ol class="timeline">
+            <li class="timeline__item reveal">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <div class="timeline__meta">
+                  <h3 class="timeline__heading">Pre-Engineering</h3>
+                  <span class="timeline__year">2023</span>
+                </div>
+                <p class="timeline__place">Bahria Town School &amp; College Lahore</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <div class="timeline__meta">
+                  <h3 class="timeline__heading">BS Robotics &amp; AI</h3>
+                  <span class="timeline__year">2024–2028</span>
+                </div>
+                <p class="timeline__place">University of Management &amp; Technology</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container container--narrow">
+          <h2 class="section__title reveal" id="experience-title">Work Experience</h2>
+          <div class="card card--experience reveal">
+            <p class="card__text">
+              I’ve worked with influencers and brands to create engaging visuals for social media,
+              packaging, and promotions. My designs helped them grow their online presence and
+              connect better with their audience through clear, on-brand content.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--work" id="work" aria-labelledby="work-title">
+        <div class="container">
+          <div class="work__header reveal">
+            <h2 class="section__title" id="work-title">My Work</h2>
+            <p class="work__subtitle">
+              This is the result of my work as I explore the world of graphic designing.
+            </p>
+            <div class="filters" role="tablist" aria-label="Filter projects">
+              <button type="button" class="filter is-active" data-filter="all" role="tab" aria-selected="true">
+                All
+              </button>
+              <button type="button" class="filter" data-filter="instagram" role="tab" aria-selected="false">
+                Instagram Ads
+              </button>
+              <button type="button" class="filter" data-filter="ai" role="tab" aria-selected="false">
+                AI Product Design
+              </button>
+              <button type="button" class="filter" data-filter="social" role="tab" aria-selected="false">
+                Social Media Design
+              </button>
+            </div>
+          </div>
+
+          <div class="gallery gallery--featured" id="project-gallery">
+            <article class="gallery__item reveal" data-category="instagram">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/waffles-chocolate-splash.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/waffles-chocolate-splash.png"
+                    alt="Waffles by Waheed chocolate ice cream advertisement with chocolate splashes"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">Instagram Ads</span>
+                  <h3 class="gallery__name">Waffles by Waheed — Chocolate Splash</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A dynamic digital advertisement designed for Waffles by Waheed. This piece
+                  focuses on high-impact food photography manipulation, featuring a chocolate ice
+                  cream cone surrounded by fluid chocolate splashes. The design uses a monochromatic
+                  brown palette with a mix of bold, architectural typography and elegant script to
+                  create a premium, appetizing brand feel.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="instagram">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/waffles-chocolate-promo.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/waffles-chocolate-promo.png"
+                    alt="Chocolate ice cream social media promotional graphic"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">Instagram Ads</span>
+                  <h3 class="gallery__name">Chocolate Ice Cream — Social Promo</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A visually rich promotional graphic for social media that highlights product
+                  texture and flavor. The design uses a monochromatic brown scheme with bold
+                  typography and dynamic floating elements for a modern, premium feel suited to
+                  high-impact social marketing.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="social">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/burger-hub-crown-crust-pizza.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/burger-hub-crown-crust-pizza.png"
+                    alt="Burger Hub Crown Crust Pizza promotional flyer"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">Social Media Design</span>
+                  <h3 class="gallery__name">Burger Hub — Crown Crust Pizza</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A professional promotional poster for Burger Hub built to drive sales for a
+                  flagship pizza product. Strong food photography, a warm red-and-yellow palette,
+                  and clear hierarchy communicate price, offer, and contact details for social or
+                  print campaigns.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="social">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/jubnah-pizza-poster.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/jubnah-pizza-poster.png"
+                    alt="Jubnah pizza promotional poster"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">Social Media Design</span>
+                  <h3 class="gallery__name">Jubnah — Pizza Campaign</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A high-energy poster for Jubnah combining warm gradients, distressed headline
+                  type, and playful mascot illustrations alongside product photography—balancing a
+                  premium food look with an approachable brand personality.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="social">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/amico-cafe-burger.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/amico-cafe-burger.png"
+                    alt="Amico Cafe chicken cheese BBQ burger advertisement"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">Social Media Design</span>
+                  <h3 class="gallery__name">Amico Cafe — BBQ Burger</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  An appetizing social poster for Amico Cafe featuring bold typography layered with
+                  product photography, steam and motion accents, and a clear order block—crafted to
+                  feel premium, fresh, and immediately mouth-watering.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="ai">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/mr-jak-skincare-bundle.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/mr-jak-skincare-bundle.png"
+                    alt="MR JAK skincare bundle advertisement with products on pedestals"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">AI Product Design</span>
+                  <h3 class="gallery__name">MR JAK — Skincare Bundle</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A clean, luxurious promotional graphic for MR JAK’s Skincare Bundle: minimalist
+                  product staging on pedestals, warm earth tones, and soft palm shadows for a calm,
+                  spa-like commercial composition.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="social">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/esthetique-laser-poster.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/esthetique-laser-poster.png"
+                    alt="Esthetique clinic full body laser hair removal promotional poster"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">Social Media Design</span>
+                  <h3 class="gallery__name">Esthetique — Laser Hair Removal</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A minimalist, elegant layout for a premium beauty clinic: warm browns and beiges,
+                  refined typography, and a clear hierarchy for pricing, booking, and contact
+                  details—aligned with a high-end clinical brand.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="ai">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/mr-jak-glow-bloom.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/mr-jak-glow-bloom.png"
+                    alt="MR JAK Glow and Bloom beauty bundle campaign"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">AI Product Design</span>
+                  <h3 class="gallery__name">MR JAK — Glow &amp; Bloom</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A soft, premium beauty campaign for MR JAK: flowing fabric textures, a curated
+                  product lineup on a circular pedestal, and serif-meets-sans typography with a
+                  playful “Order Now” badge—luxury without feeling stiff.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="ai">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/mr-jak-sunblock.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/mr-jak-sunblock.png"
+                    alt="MR JAK Skin Protect sunblock SPF 60 product advertisement"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">AI Product Design</span>
+                  <h3 class="gallery__name">MR JAK — Skin Protect Sunblock</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A minimalist “organic modern” product ad for MR JAK Skin Protect Sunblock—natural
+                  wood and stone staging, palm shadow lighting, and serif plus sans hierarchy for a
+                  high-end summer skincare feel.
+                </p>
+              </div>
+            </article>
+
+            <article class="gallery__item reveal" data-category="ai">
+              <button
+                type="button"
+                class="gallery__link"
+                aria-haspopup="dialog"
+                aria-controls="work-modal"
+                data-full-src="assets/mr-jak-skin-care-kit.png"
+              >
+                <div class="gallery__media">
+                  <img
+                    src="assets/mr-jak-skin-care-kit.png"
+                    alt="MR JAK skin care kit product lineup on reflective surface"
+                    loading="lazy"
+                    width="800"
+                    height="1000"
+                  />
+                </div>
+                <div class="gallery__caption">
+                  <span class="gallery__label">AI Product Design</span>
+                  <h3 class="gallery__name">MR JAK — Skin Care Kit</h3>
+                </div>
+              </button>
+              <div class="gallery__detail" hidden>
+                <p>
+                  A clean, reflective product showcase for MR JAK’s Skin Care Kit: balanced pack and
+                  bottle lineup, soft warm lighting, and restrained typography that keeps focus on
+                  the range and brand marks.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="work-modal"
+      id="work-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="work-modal-title"
+      hidden
+    >
+      <div class="work-modal__backdrop" data-modal-close tabindex="-1"></div>
+      <div class="work-modal__panel">
+        <button
+          type="button"
+          class="work-modal__close"
+          data-modal-close
+          aria-label="Close project details"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+        <div class="work-modal__layout">
+          <div class="work-modal__figure">
+            <img
+              class="work-modal__img"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='1600'/%3E"
+              alt=""
+              width="1200"
+              height="1600"
+              decoding="async"
+            />
+          </div>
+          <div class="work-modal__body">
+            <p class="work-modal__label" id="work-modal-label"></p>
+            <h2 class="work-modal__title" id="work-modal-title"></h2>
+            <div class="work-modal__copy" id="work-modal-copy"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__thanks">Thank You</p>
+        <div class="footer__social">
+          <a href="https://wa.me/923400406311" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://behance.net" target="_blank" rel="noopener noreferrer">Behance</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <a class="footer__email" href="mailto:zainwaheed565@gmail.com">zainwaheed565@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
